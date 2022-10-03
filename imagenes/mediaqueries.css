@@ -1,0 +1,47 @@
+@media (max-width: 992px) {
+  .header {
+    display: none;
+  }
+
+  .hero-info {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .hero-info h1 {
+    width: 90%;
+    max-width: 500px;
+    min-width: unset;
+  }
+  .hero-info p {
+    width: 60%;
+    max-width: 600px;
+  }
+  .hero-card {
+    display: none;
+  }
+
+  #info h2 {
+    max-width: 80%;
+  }
+  .cards-info-container {
+    max-width: 80%;
+  }
+  #info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards-info {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-us {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
